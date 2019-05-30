@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+             app:fontProviderAuthority="com.google.android.gms.fonts"
+             app:fontProviderCerts="@array/com_google_android_gms_fonts_certs"
+             app:fontProviderPackage="com.google.android.gms"
+             app:fontProviderQuery="Lato">
+    <!--
+    A downloadable font should have a way to optionally convert a single
+    font query into a collection of _at least_ the 4 basic font styles:
+    Regular, Bold, Italic, Bold+Italic
+
+    But preferably even expands the entire font family to provide ALL
+    available font styles for the matching font query –– for example,
+    including "medium", "black", "thin", etc, styles as well, if they
+    are requested for a view.
+    -->
+</font-family>

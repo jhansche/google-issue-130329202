@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="What I actually see:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="normal"
+        app:fontFamily="@font/does_not_work" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="bold"
+        app:fontFamily="@font/does_not_work" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="italic"
+        app:fontFamily="@font/does_not_work" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/does_not_work" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="What I expect to see:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        app:fontFamily="@font/lato_regular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="normal"
+        app:fontFamily="@font/lato_regular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        app:fontFamily="@font/lato_bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="bold"
+        app:fontFamily="@font/lato_bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        app:fontFamily="@font/lato_italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="italic"
+        app:fontFamily="@font/lato_italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        app:fontFamily="@font/lato_bold_italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quick brown fox jumped over the lazy dog"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/lato_bold_italic" />
+
+</LinearLayout>
